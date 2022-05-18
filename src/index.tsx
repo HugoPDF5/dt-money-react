@@ -12,15 +12,7 @@ createServer({
 
   seeds(server) {
     server.db.loadData({
-      transactions: [
-        {
-          id: 1,
-          title: 'Freelance',
-          type: 'dev',
-          amount: 6000,
-          createdAt: new Date()
-        }
-      ]
+      transactions: []
     })
   },
 
